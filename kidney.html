@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kidney Disease Risk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <h2>Kidney Disease Risk</h2>
+    <div class="nav-links">
+        <a href="index.html">← Back</a>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Kidney Disease Risk Assessment</h1>
+    <p>Fill in your health details below to assess your kidney health risk.</p>
+</section>
+
+<div class="form-container">
+    <div class="form-card kidney-theme">
+
+        <form>
+
+            <div class="input-group">
+                <label>Age</label>
+                <input type="number" placeholder="Enter your age">
+            </div>
+
+            <div class="input-group">
+                <label>Water Intake (Liters/Day)</label>
+                <input type="number" step="0.1" placeholder="e.g. 2.5">
+            </div>
+
+            <div class="input-group">
+                <label>Urination Frequency</label>
+                <input type="number" placeholder="Times per day">
+            </div>
+
+            <div class="input-group">
+                <label>Sitting Hours</label>
+                <input type="number" placeholder="Hours per day">
+            </div>
+
+            <button type="button" class="predict-btn kidney-btn">
+                Predict Risk
+            </button>
+
+        </form>
+
+        <!-- Result Box -->
+        <div class="result-box high-risk">
+            <h3>Risk Level: High Risk</h3>
+            <p><strong>Recommended Precautions:</strong></p>
+            <ul>
+                <li>Reduce salt intake</li>
+                <li>Increase water consumption</li>
+                <li>Maintain blood pressure levels</li>
+                <li>Consult a medical professional</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
