@@ -21,5 +21,4 @@ It allows users to select an organ and assess potential health risks.
 - Database connectivity
 - User authentication system
 
-## 👨‍💻 Developed By
-Your Name
+
